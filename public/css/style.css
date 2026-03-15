@@ -4,7 +4,14 @@ body{
   /* font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+.container{
+    flex: 1;
+}
+
 
 /* NAVBAR */
 .navbar{
@@ -88,4 +95,28 @@ body{
 .card-img-overlay:hover{
     opacity: 0.2;
     background-color: white; 
+}
+
+.add-btn{
+    background-color: #fe434d !important;
+    border: none !important;
+}
+
+/* EDIT PAGE */
+.edit-btn{
+    background-color: #fe434d !important;
+    border: none !important;
+}
+
+
+/* SHOW PAGE */
+
+.show-img{
+    height: 30vh;
+
+}
+.btns{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
 }
